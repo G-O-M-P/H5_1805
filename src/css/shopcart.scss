@@ -1,0 +1,68 @@
+.cart{
+    .col{
+        margin: 10px;
+        padding-left: 100px;
+        text-align: center;
+
+    }
+    .goods{
+        padding-left: 200px;
+        width: 100px;
+    }
+    .price{
+        width: 100px;
+    }
+    .amount{
+        width: 100px;
+    }
+    .count{
+        width: 100px;
+    }
+    clear: both;
+    li {
+    margin: 0 auto;
+    }
+    .good_del{
+        margin-left: 108px;
+    }
+    .good_total{
+        margin-left: 80px;
+    }
+    .good_name{
+        width: 142px;
+    }
+    .num{
+        margin-left: 50px;
+    }
+    p {
+    float: left;
+    margin: 30px;
+    overflow:hidden;
+    img{
+        display:block;
+        width: 100px;
+        height: 100px;
+    }
+    span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #ffa500;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    color:#fff;
+    }
+    span::selection {
+    background: transparent;
+    }
+    }
+}
+#del {
+margin-left: 0 auto;
+p {
+float: left;
+margin: 10px;
+}
+}
